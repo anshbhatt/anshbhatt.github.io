@@ -95,7 +95,7 @@
                 else {
                     let response = await fetch('https://6674a06575872d0e0a97126b.mockapi.io/reasons', {method: 'GET'});
                     let data = await response.json();
-                    let index = Math.floor(Math.random()*2);
+                    let index = Math.floor(Math.random()*11);
                     elem.innerHTML = "Scroll Down";
                     elem.disabled = true;
                     document.getElementById("ReasonOfTheDay").style.visibility = "visible";
